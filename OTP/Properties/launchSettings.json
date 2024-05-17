@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "OTP (Package)": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true
+    },
+    "OTP (Unpackaged)": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

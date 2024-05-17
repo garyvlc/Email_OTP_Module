@@ -1,0 +1,58 @@
+<!-- Copyright (c) Microsoft Corporation and Contributors. -->
+<!-- Licensed under the MIT License. -->
+
+<Page
+    x:Class="OTP.OTP_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OTP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <!-- Main container for the page content with border styling -->
+    <Border Background="White" BorderBrush="Black" BorderThickness="2">
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- Define rows for layout -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Label and TextBox for entering user email -->
+            <TextBlock Grid.Row="0" Text="Enter User Email:" Margin="0,0,0,10" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox x:Name="email_box" Grid.Row="1" Margin="0,0,0,10" Style="{StaticResource InputBoxStyle}"/>
+
+            <!-- Label and TextBox for entering the OTP code -->
+            <TextBlock Grid.Row="2" Text="Verify Code:" Margin="0,20,0,10" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox x:Name="code_box" Grid.Row="3" Margin="0,0,0,10" Style="{StaticResource InputBoxStyle}"/>
+
+            <!-- Buttons for sending OTP, verifying OTP, and resetting the form -->
+            <Button x:Name="sendOTPButton" Grid.Row="4" Content="Send OTP" Click="button1_Click" Margin="0,20,0,0" Style="{StaticResource ButtonStyle}"/>
+            <Button x:Name="verifyOTPButton" Grid.Row="5" Content="Verify OTP" Click="button2_Click" Margin="0,10,0,0" Style="{StaticResource ButtonStyle}"/>
+            <Button x:Name="resetButton" Grid.Row="6" Content="Reset" Click="button3_Click" Margin="0,10,0,0" Style="{StaticResource ButtonStyle}"/>
+
+            <!-- Display the result of the OTP verification -->
+            <TextBlock Grid.Row="7" Text="Result:" VerticalAlignment="Center" Margin="0,20,10,0" Style="{StaticResource TextBlockStyle}"/>
+            <TextBlock x:Name="resultText" Grid.Row="8" Margin="0,0,10,0" TextWrapping="Wrap" Style="{StaticResource TextBlockStyle}"/>
+
+            <!-- Display the number of attempts made -->
+            <TextBlock Grid.Row="9" Text="Attempts:" VerticalAlignment="Center" Margin="0,20,10,0" Style="{StaticResource TextBlockStyle}"/>
+            <TextBlock x:Name="attemptsText" Grid.Row="10" Margin="0,0,10,0" TextWrapping="Wrap" Style="{StaticResource TextBlockStyle}"/>
+
+            <!-- Display the countdown timer -->
+            <TextBlock x:Name="timerText" Grid.Row="11" Margin="0,10" HorizontalAlignment="Center" Style="{StaticResource TextBlockStyle}"/>
+        </Grid>
+    </Border>
+</Page>

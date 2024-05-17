@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Email_OTP_Module", "OTP\Email_OTP_Module.csproj", "{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|ARM64.Build.0 = Debug|ARM64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|x64.ActiveCfg = Debug|x64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|x64.Build.0 = Debug|x64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|x64.Deploy.0 = Debug|x64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|x86.ActiveCfg = Debug|x86
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|x86.Build.0 = Debug|x86
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Debug|x86.Deploy.0 = Debug|x86
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|ARM64.ActiveCfg = Release|ARM64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|ARM64.Build.0 = Release|ARM64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|ARM64.Deploy.0 = Release|ARM64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|x64.ActiveCfg = Release|x64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|x64.Build.0 = Release|x64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|x64.Deploy.0 = Release|x64
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|x86.ActiveCfg = Release|x86
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|x86.Build.0 = Release|x86
+		{C46691D4-D3CB-4B7E-8132-EAEF7FAE5C25}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A623C5AC-895B-4C9D-B66D-EFD6C1583B7A}
+	EndGlobalSection
+EndGlobal
